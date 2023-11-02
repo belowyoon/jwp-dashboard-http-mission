@@ -58,3 +58,19 @@ http://localhost:8080/login?account=gugu&password=password으로 접속하면 �
 
 - 미션은 [jwp-dashboard-http-mission](https://github.com/speculatingwook/jwp-dashboard-http-mission) 저장소를 Fork & Clone해 시작한다.
 - **기능을 구현하기 전 `README.md`에 구현할 기능 목록을 정리**해 추가한다.
+
+<br>
+----------------------
+
+## 🚀 `step1`: 구현 기능 목록
+### 1. GET /index.html 응답하기
+1. request path를 통해 리소스 찾기
+2. 정적 자원 처리 : file을 byte 단위로 읽기
+3. response로 처리한 파일 보내기
+### 2. CSS 지원하기
+1. index.html에서 css 호출 확인
+2. response Content-Type 변경
+### 3. Query String 파싱
+1. parameter 추출
+2. db 조회를 통해 추출된 parameter에 해당하는 user 존재 여부 확인
+3. response로 조회한 결과 보내기
