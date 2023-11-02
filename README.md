@@ -60,7 +60,8 @@ http://localhost:8080/login?account=gugu&password=password으로 접속하면 �
 - **기능을 구현하기 전 `README.md`에 구현할 기능 목록을 정리**해 추가한다.
 
 <br>
-----------------------
+
+---
 
 ## 🚀 `step1`: 구현 기능 목록
 ### 1. GET /index.html 응답하기
